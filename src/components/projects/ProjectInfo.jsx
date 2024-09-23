@@ -78,9 +78,11 @@ const ProjectInfo = () => {
 										aria-label="Share Project"
 										className="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
 									>
+										{social.url &&
 										<span className="text-lg lg:text-2xl">
-											{social.icon}
+											{social.url && social.icon}
 										</span>
+							}
 									</a>
 								);
 							}
