@@ -10,6 +10,8 @@ import unsplashImg from '../images/unsplashImg.png';
 import Quizimg from '../images/Quizimg.png';
 import TodoImg from '../images/TodoImg.png';
 import LoginImg from '../images/LoginImg.jpg';
+import EventsImg from '../images/EventsImg.png';
+
 
 export const projectsData = [
 	{
@@ -29,7 +31,7 @@ export const projectsData = [
 		title: 'Connect Hub',
 		category: 'Full Stack App',
 		img: MeetImg,
-		url:'https://github.com/chakriswamireddy/Live-Docs',
+		url:'https://github.com/chakriswamireddy/Connect-Hub',
 		ProjectHeader: {
 			title: 'Realtime Video Chat App',
 			publishDate: 'July 2024',
@@ -50,18 +52,25 @@ export const projectsData = [
 	},
 	{
 		id: 3,
+		title: 'Events App',
+		category: 'Web Application',
+		url:'https://events-frontend-tau.vercel.app/',
+		img: EventsImg,
+	},
+	{
+		id: 4,
 		title: 'TODO APP',
 		category: 'Full Stack App',
 		img: TodoImg,
 		url:'https://cool-belekoy-c864ce.netlify.app/',
 	},
-	{
-		id: 4,
-		title: ' Quiz App',
-		category: 'Web Application',
-		url:'https://quiz-app-kappa-cyan.vercel.app/',
-		img: Quizimg,
-	},
+	// {
+	// 	id: 4,
+	// 	title: ' Quiz App',
+	// 	category: 'Web Application',
+	// 	url:'https://quiz-app-kappa-cyan.vercel.app/',
+	// 	img: Quizimg,
+	// },
 	{
 		id: 5,
 		title: 'Unsplash Clone',
